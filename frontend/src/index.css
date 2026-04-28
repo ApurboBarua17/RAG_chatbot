@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body, #root { height: 100%; margin: 0; padding: 0; }
+  body {
+    background: #F8FAFC;
+    color: #0F172A;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: 'cv02','cv03','cv04','cv11';
+  }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.10); border-radius: 2px; }
+}
+
+/* ── Welcome background ─────────────────────────────────────── */
+
+@keyframes gradientDrift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Subtle dot grid */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(12,35,75,0.055) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Floating orbs */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  will-change: transform;
+}
+.orb-red {
+  width: 480px; height: 480px;
+  top: -140px; right: -80px;
+  background: radial-gradient(circle, rgba(171,5,32,0.15) 0%, transparent 70%);
+  animation: floatA 13s ease-in-out infinite;
+}
+.orb-navy {
+  width: 420px; height: 420px;
+  bottom: -100px; left: -80px;
+  background: radial-gradient(circle, rgba(12,35,75,0.13) 0%, transparent 70%);
+  animation: floatB 16s ease-in-out infinite;
+}
+.orb-blue {
+  width: 320px; height: 320px;
+  top: 45%; left: 28%;
+  background: radial-gradient(circle, rgba(30,82,136,0.09) 0%, transparent 70%);
+  animation: floatC 11s ease-in-out infinite;
+}
+
+@keyframes floatA {
+  0%,100% { transform: translate(0,0) scale(1); }
+  33%      { transform: translate(-50px, 35px) scale(1.07); }
+  66%      { transform: translate(35px,-45px) scale(0.96); }
+}
+@keyframes floatB {
+  0%,100% { transform: translate(0,0) scale(1); }
+  40%      { transform: translate(55px,-28px) scale(1.05); }
+  75%      { transform: translate(-28px, 48px) scale(0.97); }
+}
+@keyframes floatC {
+  0%,100% { transform: translate(0,0) scale(1); }
+  50%      { transform: translate(-35px,-35px) scale(1.06); }
+}
+
+/* ── Logo glow pulse ─────────────────────────────────────────── */
+@keyframes logoGlow {
+  0%,100% { box-shadow: 0 2px 8px rgba(171,5,32,0.25); }
+  50%      { box-shadow: 0 0 28px 8px rgba(171,5,32,0.38), 0 2px 8px rgba(171,5,32,0.25); }
+}
+
+/* ── Typing indicator dots ───────────────────────────────────── */
+@keyframes typingPulse {
+  0%, 100% { transform: scale(0.85); opacity: 0.35; }
+  50%       { transform: scale(1.15); opacity: 1; }
+}
+
+/* ── Status badge pulse ──────────────────────────────────────── */
+@keyframes statusPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.45; transform: scale(0.82); }
+}

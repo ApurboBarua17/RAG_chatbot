@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- UA Red rounded square -->
+  <rect width="64" height="64" rx="15" fill="#AB0520"/>
+  <!-- Subtle top shine -->
+  <rect x="1" y="1" width="62" height="28" rx="14" fill="white" fill-opacity="0.08"/>
+  <!-- Navy bottom accent bar -->
+  <rect x="0" y="46" width="64" height="18" rx="0" fill="#0C234B" fill-opacity="0.45"/>
+  <rect x="0" y="46" width="64" height="18" rx="8" fill="#0C234B" fill-opacity="0.45"/>
+  <!-- CS label -->
+  <text
+    x="32" y="41"
+    text-anchor="middle"
+    font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="900"
+    font-size="27"
+    letter-spacing="-1.5"
+    fill="white"
+  >CS</text>
+</svg>

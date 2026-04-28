@@ -1,0 +1,239 @@
+University of Arizona - Computer Science Course Catalog
+Source: catalog.arizona.edu/courses/csc
+Last updated: 2025
+
+=== FOUNDATIONAL COURSES ===
+
+CSC 110 - Introduction to Computer Programming I (4 units)
+Description: Introduction to programming concepts using Python. Topics include variables, control flow, functions, lists, and basic algorithms.
+Prerequisites: C or higher in MATH 112 or appropriate math placement score.
+Offered: Fall, Spring (sometimes Summer)
+
+CSC 120 - Introduction to Computer Programming II (4 units)
+Description: Continuation of CSC 110. Topics include object-oriented programming, recursion, data structures, and algorithm analysis.
+Prerequisites: C or higher in CSC 110 (or ECE 101 or ISTA 130).
+Offered: Fall, Spring (sometimes Summer)
+
+CSC 144 - Discrete Mathematics for Computer Science I (3 units)
+Description: Logic, sets, functions, relations, induction, and combinatorics with applications to computer science.
+Prerequisites: C or higher in CSC 110 (or ECE 101 or ISTA 130) AND C or higher in MATH 112 or appropriate placement.
+Substitutes: MATH 243 or MATH 323 may substitute.
+Offered: Fall, Spring (sometimes Summer)
+
+CSC 180 / CSC 196 - Introduction to Data Science Principles (3 units)
+Description: Introduction to data science concepts, Python for data analysis, and basic statistical reasoning.
+Prerequisites: C or higher in CSC 110. Completion of Calculus I strongly recommended.
+Note: Currently offered as CSC 196. Only offered in Spring semesters.
+
+CSC 210 - Software Development (4 units)
+Description: Software development methodology, data structures (stacks, queues, trees, graphs), algorithm design, and testing.
+Prerequisites: C or higher in CSC 120.
+Offered: Fall, Spring (sometimes Summer)
+
+CSC 244 - Discrete Mathematics for Computer Science II (3 units)
+Description: Graph theory, trees, algorithms, formal languages, and finite automata.
+Prerequisites: C or higher in CSC 120 AND C or higher in CSC 144 (or MATH 243 or MATH 323).
+Offered: Fall, Spring (sometimes Summer)
+
+=== CORE UPPER-DIVISION COURSES (Advanced Standing Required) ===
+
+CSC 252 - Computer Organization (3 units)
+Description: Computer architecture, assembly language, memory hierarchy, pipelining, and digital logic.
+Prerequisites: Advanced Standing. C or higher in CSC 210 AND C or higher in CSC 244.
+Equivalent: ECE 369A may substitute.
+
+CSC 335 - Object-Oriented Programming and Design (3 units)
+Description: Object-oriented design principles, design patterns, UML, testing, and software engineering best practices. Uses Java.
+Prerequisites: Advanced Standing. C or higher in CSC 210.
+
+CSC 345 - Analysis of Discrete Structures (3 units)
+Description: Algorithm analysis, sorting, searching, graph algorithms, dynamic programming, and complexity theory.
+Prerequisites: Advanced Standing. C or higher in CSC 244.
+Note: Required for most upper-division CS electives.
+
+CSC 352 - Systems Programming and Unix (3 units)
+Description: C programming, Unix/Linux systems, processes, file I/O, memory management, and shell scripting.
+Prerequisites: Advanced Standing. C or higher in CSC 210.
+
+CSC 380 - Principles of Data Science (3 units)
+Description: Data wrangling, exploratory analysis, machine learning fundamentals, and data visualization using Python.
+Prerequisites: Advanced Standing. C or higher in CSC 210 AND C or higher in MATH 163 or MATH 263 (Statistics).
+Equivalent: DATA 363 or MATH 363 may substitute.
+
+=== PARADIGMS AREA ELECTIVES ===
+
+CSC 343 - Human Computer Interaction (3 units)
+Description: UI/UX design principles, usability testing, prototyping, and accessibility.
+Prerequisites: Advanced Standing.
+
+CSC 372 - Comparative Programming Languages (3 units)
+Description: Survey of programming language paradigms: functional, logic, scripting, and object-oriented languages.
+Prerequisites: Advanced Standing. C or higher in CSC 210.
+
+CSC 422 - Introduction to Parallel and Distributed Programming (3 units)
+Description: Parallel computing models, threads, distributed systems, and concurrent programming.
+Prerequisites: Advanced Standing. C or higher in CSC 352.
+
+CSC 460 - Database Design (3 units)
+Description: Relational databases, SQL, ER modeling, normalization, transactions, and NoSQL.
+Prerequisites: Advanced Standing. C or higher in CSC 345 or CSC 380.
+
+=== THEORY AND WRITING AREA ELECTIVES ===
+
+CSC 437 - Geometric Algorithms (3 units)
+Description: Computational geometry, convex hulls, triangulation, and geometric data structures.
+Prerequisites: Advanced Standing. C or higher in CSC 345.
+
+CSC 445 - Algorithms (3 units)
+Description: Advanced algorithm design and analysis: greedy algorithms, dynamic programming, network flow, NP-completeness.
+Prerequisites: Advanced Standing. C or higher in CSC 345.
+
+CSC 450 - Algorithms in Bioinformatics (3 units)
+Description: Sequence alignment, phylogenetics, and computational biology algorithms.
+Prerequisites: Advanced Standing. C or higher in CSC 345.
+
+CSC 473 - Automata, Grammars and Languages (3 units)
+Description: Formal languages, finite automata, context-free grammars, Turing machines, and computability.
+Prerequisites: Advanced Standing. C or higher in CSC 345.
+
+=== SYSTEMS AREA ELECTIVES ===
+
+CSC 452 - Principles of Operating Systems (3 units)
+Description: Process management, scheduling, memory management, file systems, and concurrency.
+Prerequisites: Advanced Standing. C or higher in CSC 252 AND C or higher in CSC 352.
+
+CSC 453 - Compilers and Systems Software (3 units)
+Description: Lexical analysis, parsing, semantic analysis, code generation, and optimization.
+Prerequisites: Advanced Standing. C or higher in CSC 345 AND C or higher in CSC 352.
+
+=== AI / MACHINE LEARNING ELECTIVES ===
+
+CSC 480 - Principles of Machine Learning (3 units)
+Description: Supervised and unsupervised learning, neural networks, model evaluation, and ML pipelines.
+Prerequisites: Advanced Standing. C or higher in CSC 380 AND C or higher in CSC 345. MATH 313 (Linear Algebra) strongly recommended.
+
+CSC 477 - Introduction to Computer Vision (3 units)
+Description: Image processing, feature detection, deep learning for vision, and object recognition.
+Prerequisites: Advanced Standing. C or higher in CSC 380 AND MATH 313 (Linear Algebra).
+
+CSC 438 - Computational Linguistics (3 units)
+Description: Natural language processing, parsing, syntax, and semantics. Cross-listed with LING 438 and PSY 438.
+Prerequisites: Advanced Standing.
+
+CSC 439 - Statistical Natural Language Processing (3 units)
+Description: Statistical models for NLP, language models, machine translation, and text classification.
+Prerequisites: Advanced Standing. C or higher in CSC 380.
+Cross-listed: DATA 439, ISTA 439, LING 439.
+
+CSC 455 - Philosophy and Artificial Intelligence (3 units)
+Description: Philosophical foundations of AI, ethics, consciousness, and the nature of intelligence.
+Prerequisites: Advanced Standing.
+Cross-listed: PHIL 455.
+
+CSC 483 - Text Retrieval and Web Search (3 units)
+Description: Information retrieval, indexing, ranking algorithms, and search engine design.
+Prerequisites: Advanced Standing. C or higher in CSC 380.
+
+=== OTHER POPULAR ELECTIVES ===
+
+CSC 317 - Mobile Application Programming (3 units)
+Description: iOS or Android app development, mobile UI design, and device APIs.
+Prerequisites: C or higher in CSC 210.
+
+CSC 337 - Web Programming (3 units)
+Description: HTML, CSS, JavaScript, React, Node.js, and full-stack web development.
+Prerequisites: C or higher in CSC 210.
+
+CSC 346 - Cloud Computing (3 units)
+Description: Cloud platforms (AWS/GCP/Azure), distributed systems, containers, and serverless computing.
+Prerequisites: C or higher in CSC 210.
+
+=== PREREQUISITE CHAIN SUMMARY ===
+
+To reach CSC 345 (required for most upper-div electives):
+CSC 110 → CSC 120 + CSC 144 → CSC 210 + CSC 244 → [Advanced Standing] → CSC 345
+
+To reach CSC 452 (Operating Systems):
+CSC 110 → CSC 120 → CSC 210 → CSC 252 AND CSC 352 → CSC 452
+
+To reach CSC 480 (Machine Learning):
+CSC 110 → CSC 120 → CSC 210 + MATH 163/263 → CSC 380 → CSC 480 (also needs CSC 345)
+
+To reach CSC 453 (Compilers):
+Need CSC 345 AND CSC 352 → CSC 453
+
+Full CS foundational chain (3 semesters):
+Semester 1: CSC 110
+Semester 2: CSC 120, CSC 144, CSC 180/196
+Semester 3: CSC 210, CSC 244
+
+=== ADVANCED STANDING REQUIREMENTS (BS CS) ===
+
+To progress from foundational to Advanced Standing, a student must have:
+1. Completed all 6 foundational courses: CSC 110, CSC 120, CSC 144, CSC 180, CSC 210, CSC 244
+2. Cumulative UA GPA of 2.4 or higher
+3. GPA of 3.0 or higher in best attempts at CSC 120, CSC 210, and CSC 244 (taken at UA or elsewhere)
+4. GPA of 2.0 or higher in all attempts at CSC courses taken at UA
+5. At least two programming courses completed at UA from: CSC 110, 120, 210, 252, 317, 335, 337, 343, 346, 352, 372, 380
+
+=== ADVANCED STANDING REQUIREMENTS (BS AI) ===
+
+To progress to Advanced Standing in AI, a student must have:
+1. Cumulative UA GPA of 2.4 or higher
+2. GPA of 3.0 or higher in best attempts at CSC 120, CSC 210, CSC 244, and the AI intro course
+3. GPA of 2.0 or higher in all attempts at CSC courses taken at UA
+4. At least two programming courses completed at UA
+
+=== BS CS CORE REQUIREMENTS (After Advanced Standing) ===
+
+Required core (5 courses):
+- CSC 252 - Computer Organization
+- CSC 335 - Object-Oriented Programming and Design
+- CSC 345 - Analysis of Discrete Structures
+- CSC 352 - Systems Programming and Unix
+- CSC 380 - Principles of Data Science (or DATA 363 / MATH 363)
+
+Track electives required:
+- 1 Paradigms elective: CSC 343, 372, 422, or 460
+- 1 Theory/Writing elective: CSC 437, 445, 450, or 473
+- 1 Systems elective: CSC 452 or CSC 453
+- 3 additional electives (upper-division CSC courses)
+
+Supporting math:
+- Calculus I (MATH 122B or MATH 125)
+- Calculus II or Linear Algebra (MATH 129 or MATH 313)
+- Two science lab sequences (Physics, Chemistry, Biology, or Geology)
+
+Graduation requirements:
+- Minimum 120 total units
+- Minimum 54 units in the major
+- Minimum 2.0 GPA in major coursework
+- Minimum 30 units of upper-division coursework
+- Minimum 18 units of residency at UA
+
+=== BS AI CORE REQUIREMENTS (After Advanced Standing) ===
+
+Required core (3 courses):
+- CSC 345 - Analysis of Discrete Structures
+- CSC 380 - Principles of Data Science
+- CSC 480 - Principles of Machine Learning
+
+Required advanced AI electives (choose 4):
+- CSC 438 - Computational Linguistics
+- CSC 439 - Statistical Natural Language Processing
+- CSC 455 - Philosophy and Artificial Intelligence
+- CSC 477 - Introduction to Computer Vision
+- CSC 483 - Text Retrieval and Web Search
+- DATA/LING/ISTA 439 (cross-listed options)
+
+Supporting math for AI:
+- Calculus I (MATH 122B or MATH 125)
+- Statistics (MATH 163 or MATH 263) — required before Advanced Standing
+- Linear Algebra (MATH 313) — strongly recommended for CSC 477 and CSC 480
+
+Graduation requirements:
+- Minimum 120 total units
+- Minimum 54 units in the major
+- Minimum 2.0 GPA in major coursework
+- Minimum 33 units of upper-division major coursework
+- Minimum 18 units of residency at UA

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: ua-cs-assistant-backend
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt && cd backend && python ingest.py
+    startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+
+  - type: static
+    name: ua-cs-assistant-frontend
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false
