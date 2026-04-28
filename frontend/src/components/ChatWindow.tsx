@@ -22,7 +22,7 @@ const SUGGESTIONS = [
   { emoji: '🎓', label: 'Graduation Plan',  sub: 'Full CS degree requirements',     prompt: 'What courses do I need to graduate with a CS degree?' },
   { emoji: '🔗', label: 'Prerequisites',    sub: 'Prereq chain for CSC 345',        prompt: 'What are the prerequisites for CSC 345?' },
   { emoji: '⚙️', label: 'Systems Track',   sub: 'Electives that qualify',           prompt: 'Which electives count toward the systems track?' },
-  { emoji: '📊', label: 'CS vs CE',        sub: 'Side-by-side comparison',          prompt: 'What is the difference between the CS and CE degree?' },
+  { emoji: '🤖', label: 'BS AI Degree',    sub: 'AI vs CS degree breakdown',        prompt: 'What are the requirements for the BS in Artificial Intelligence?' },
 ]
 
 /* ─── Shared glass surfaces ──────────────────────────────────── */
