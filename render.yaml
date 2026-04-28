@@ -8,7 +8,8 @@ services:
       - key: GROQ_API_KEY
         sync: false
 
-  - type: static
+  - type: web
+    env: static
     name: ua-cs-assistant-frontend
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: frontend/dist
